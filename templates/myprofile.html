@@ -1,0 +1,46 @@
+﻿<ion-view  view-title="My Profile" cache-view="false" style="color:white !important;"> 
+       
+     
+  <ion-content>
+       
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="ProfileData.Username" placeholder="Enter UserName">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="ProfileData.Password" placeholder="Enter Password"/>
+        </label>
+          <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="email" ng-model="ProfileData.Email" placeholder="Enter Email Address"/>
+        </label>
+          <label class="item item-input">
+          <span class="input-label">City</span>
+          <input type="text" ng-model="ProfileData.City" placeholder="Enter City"/>
+        </label>
+          <label class="item item-input">
+          <span class="input-label">Address</span>
+          <textarea ng-model="ProfileData.Address" placeholder="Enter Address"></textarea>
+        </label>
+           <label class="item item-input">
+          <span class="input-label">Website</span>
+         <input type="text" ng-model="ProfileData.Website" placeholder="Enter Website"/>
+        </label>
+          <label class="item item-input">
+          <span class="input-label">Phone</span>
+         <input type="text" ng-model="ProfileData.Phone" placeholder="Enter Phone"/>
+        </label>
+        <label class="item">
+          <button ng-click="UpdateProfile()" class="button button-block button-positive"  style="color: #fff;background-color: #286090;border-color: #204d74;">
+              Update
+          </button>
+        
+        
+        </label>
+      </div>
+   
+
+  </ion-content>
+</ion-view>
